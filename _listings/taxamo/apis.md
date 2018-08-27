@@ -7,11 +7,22 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/18644-taxa
 x-kinRank: "8"
 x-alexaRank: "795977"
 tags: Confirm
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/confirm/master/_listings/taxamo/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: Taxamo - Confirm Transaction
+  x-api-slug: apiv1transactionskeyconfirm-post
+  description: Confirm transaction.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/18644-taxamo.jpg
+  humanURL: https://www.taxamo.com/
+  baseURL: https://api.taxamo.com//
+  tags: Taxes, VAT, Target, Stack Network, Taxes, Relative Data, Service API, Relative
+    StreamRank, Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/confirm/master/_listings/taxamo/apiv1transactionskeyconfirm-post-openapi.md
 x-common:
 - type: x-website
   url: https://www.taxamo.com/

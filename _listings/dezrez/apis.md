@@ -7,11 +7,51 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28888-www-
 x-kinRank: "7"
 x-alexaRank: "385559"
 tags: Confirm
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/confirm/master/_listings/dezrez/apis.md
 specificationVersion: "0.14"
 apis:
+- name: Dezrez.Rezi.Client.Api - To confirm or unconfirm a list of lots for the auction
+  x-api-slug: apiauctionidconfirmlots-post
+  description: To confirm or unconfirm a list of lots for the auction.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28888-www-dezrez-com.jpg
+  humanURL: https://www.dezrez.com
+  baseURL: https://api.dezrez.com//
+  tags: SaaS, Technology, Real Estate, Properties, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/confirm/master/_listings/dezrez/apiauctionidconfirmlots-post-openapi.md
+- name: Dezrez.Rezi.Client.Api - Generates a confirm an epc appointment letter correspondence
+  x-api-slug: apidocumentgenerationconfirmepcappointment-post
+  description: Generates a confirm an epc appointment letter correspondence.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28888-www-dezrez-com.jpg
+  humanURL: https://www.dezrez.com
+  baseURL: https://api.dezrez.com//
+  tags: SaaS, Technology, Real Estate, Properties, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/confirm/master/_listings/dezrez/apidocumentgenerationconfirmepcappointment-post-openapi.md
+- name: Dezrez.Rezi.Client.Api - Generates a confirm a meeting letter correspondence
+  x-api-slug: apidocumentgenerationconfirmmeeting-post
+  description: Generates a confirm a meeting letter correspondence.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28888-www-dezrez-com.jpg
+  humanURL: https://www.dezrez.com
+  baseURL: https://api.dezrez.com//
+  tags: SaaS, Technology, Real Estate, Properties, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/confirm/master/_listings/dezrez/apidocumentgenerationconfirmmeeting-post-openapi.md
+- name: Dezrez.Rezi.Client.Api - Generates a confirm general appointment letter correspondence
+  x-api-slug: apidocumentgenerationconfirmgeneralappointment-post
+  description: Generates a confirm general appointment letter correspondence.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28888-www-dezrez-com.jpg
+  humanURL: https://www.dezrez.com
+  baseURL: https://api.dezrez.com//
+  tags: SaaS, Technology, Real Estate, Properties, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/confirm/master/_listings/dezrez/apidocumentgenerationconfirmgeneralappointment-post-openapi.md
 - name: Dezrez.Rezi.Client.Api - Confirms the compliance checks have been carried
     out on a marketing role
   x-api-slug: apiroleidconfirmcompliancechecks-put

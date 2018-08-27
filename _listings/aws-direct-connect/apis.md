@@ -18,11 +18,45 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "10"
 x-alexaRank: "0"
 tags: Confirm
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/confirm/master/_listings/aws-direct-connect/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: AWS Direct Connect API - Confirm Connection
+  x-api-slug: actionconfirmconnection-get
+  description: Confirm the creation of a hosted connection on an interconnect.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Networking_AWSDirectConnect.png
+  humanURL: https://aws.amazon.com/directconnect/
+  baseURL: :///
+  tags: Amazon Web Services, Stack Network, API Service Provider, API Service Provider,
+    API Provider, Profiles, Relative Data, Service API, Networks
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/confirm/master/_listings/aws-direct-connect/actionconfirmconnection-get-openapi.md
+- name: AWS Direct Connect API - Confirm Private Virtual Interface
+  x-api-slug: actionconfirmprivatevirtualinterface-get
+  description: Accept ownership of a private virtual interface created by another
+    customer.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Networking_AWSDirectConnect.png
+  humanURL: https://aws.amazon.com/directconnect/
+  baseURL: :///
+  tags: Amazon Web Services, Stack Network, API Service Provider, API Service Provider,
+    API Provider, Profiles, Relative Data, Service API, Networks
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/confirm/master/_listings/aws-direct-connect/actionconfirmprivatevirtualinterface-get-openapi.md
+- name: AWS Direct Connect API - Confirm Public Virtual Interface
+  x-api-slug: actionconfirmpublicvirtualinterface-get
+  description: Accept ownership of a public virtual interface created by another customer.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Networking_AWSDirectConnect.png
+  humanURL: https://aws.amazon.com/directconnect/
+  baseURL: :///
+  tags: Amazon Web Services, Stack Network, API Service Provider, API Service Provider,
+    API Provider, Profiles, Relative Data, Service API, Networks
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/confirm/master/_listings/aws-direct-connect/actionconfirmpublicvirtualinterface-get-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://aws.device.farm.api.gallery.streamdata.io
